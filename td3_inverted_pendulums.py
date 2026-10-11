@@ -29,6 +29,7 @@ ENVIRONMENTS = (
 )
 TRAIN_FIELDS = ("episode", "env_steps", "return", "length", "terminated", "truncated")
 EVAL_FIELDS = ("env_steps", "mean_return", "std_return", "mean_length",
+               "return_ci95_low", "return_ci95_high", "median_return",
                "success_rate", "upright_fraction")
 
 
